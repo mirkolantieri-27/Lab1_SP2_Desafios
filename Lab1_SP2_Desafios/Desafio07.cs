@@ -45,5 +45,10 @@ namespace Lab1_SP2_Desafios
 
             lblSeleccion.Text = "Turno: " + turno + "   |   Modalidad: " + modalidad;
         }
+
+        private void lblModalidad_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

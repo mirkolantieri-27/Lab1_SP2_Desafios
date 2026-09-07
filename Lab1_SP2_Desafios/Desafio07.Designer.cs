@@ -42,7 +42,7 @@
             // 
             this.lblTurno.AutoSize = true;
             this.lblTurno.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
-            this.lblTurno.Location = new System.Drawing.Point(25, 30);
+            this.lblTurno.Location = new System.Drawing.Point(12, 30);
             this.lblTurno.Name = "lblTurno";
             this.lblTurno.Size = new System.Drawing.Size(39, 15);
             this.lblTurno.TabIndex = 0;
@@ -57,6 +57,7 @@
             this.lblModalidad.Size = new System.Drawing.Size(64, 15);
             this.lblModalidad.TabIndex = 1;
             this.lblModalidad.Text = "Modalidad";
+            this.lblModalidad.Click += new System.EventHandler(this.lblModalidad_Click);
             // 
             // lblSeleccion
             // 
@@ -145,7 +146,6 @@
             this.groupBox1.Size = new System.Drawing.Size(200, 100);
             this.groupBox1.TabIndex = 10;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "groupBox1";
             // 
             // groupBox2
             // 
@@ -157,7 +157,6 @@
             this.groupBox2.Size = new System.Drawing.Size(200, 100);
             this.groupBox2.TabIndex = 11;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "groupBox2";
             // 
             // Desafio07
             // 

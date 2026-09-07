@@ -50,8 +50,9 @@
             // 
             this.mnuGuardarComo.Name = "mnuGuardarComo";
             this.mnuGuardarComo.Size = new System.Drawing.Size(160, 22);
-            this.mnuGuardarComo.Text = "Guardar como";
+            this.mnuGuardarComo.Text = "Guardar como...";
             this.mnuGuardarComo.Click += new System.EventHandler(this.mnuGuardarComo_Click);
+
             // 
             // mnuSalir
             // 
